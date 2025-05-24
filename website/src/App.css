@@ -1,0 +1,139 @@
+:root {
+  --illini-orange: #FF5F05;
+  --illini-blue: #13294B;
+}
+
+body {
+  margin: 0;
+  font-family: 'NanumSquare', Arial, sans-serif;
+}
+
+.App {
+  text-align: center;
+}
+
+.top-navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #fff;
+}
+
+.top-navbar__logo img {
+  width: 150px;
+  height: 66px;
+}
+
+.top-navbar__links {
+  list-style: none;
+  display: flex;
+  gap: 30px;
+  margin: 0;
+  padding: 0;
+}
+
+.top-navbar__links li a {
+  text-decoration: none;
+  color: #000;
+  font-weight: 500;
+  font-size: 20px;
+}
+
+.top-navbar__links li a:hover {
+  color: var(--illini-orange);
+}
+
+.top-navbar__discord {
+  width: 24px;
+  height: 24px;
+  fill: #000;
+  transition: fill 0.2s;
+}
+
+.top-navbar__discord:hover {
+  fill: var(--illini-orange);
+}
+
+.body-content {
+  display: flex;
+  flex-direction: column;
+}
+
+.body-content-logo  {
+  /* float: left; */
+  /* max-width: 10000px; */
+  align-self: flex; /* flex-start || flex-end */
+  margin-bottom: 0%;
+}
+
+.body-content-logo img {
+  max-width: 100%;
+  height: auto;
+  width: 225;
+  height: 100;
+}
+
+.body-content-motto {
+  font-weight: 700;
+  font-size: 37px;
+  text-align: left;
+  padding: 60px;
+}
+
+.join-us-apply {
+  text-align: left;
+  list-style: none;
+  display: flex;
+  gap: 30px;
+  margin: 0;
+  padding: 0;
+}
+
+.body-content-apply li a {
+  padding: 60px;
+  text-decoration: none;
+  color: #13294B;
+  font-weight: 500;
+  font-size: 20px;
+}
+
+.body-content-apply li a:hover{
+  color: var(--illini-orange);
+}
+
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
