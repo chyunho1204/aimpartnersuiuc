@@ -1,5 +1,5 @@
 import React from 'react';
-import logo from '../aim_logo.svg'
+import logo from '../icons/aim_logo.svg'
 
 export default function MainContent() {
   return (
@@ -23,9 +23,14 @@ export default function MainContent() {
           Learn While You Earn
       </div>
       <div className="body-content-apply">
-          <li><a href='https://docs.google.com/forms/d/e/1FAIpQLSf0xBY2sK0ub7SwoebbNJBez5PkF6OXDPZfKlCr6y5IqWJdlw/viewform?usp=dialog' target='_blank' rel='noopener noreferrer'>Fall 2025 Application</a></li>
+          <a
+            href='https://docs.google.com/forms/d/e/1FAIpQLSf0xBY2sK0ub7SwoebbNJBez5PkF6OXDPZfKlCr6y5IqWJdlw/viewform?usp=dialog'
+            target='_blank'
+            rel='noopener noreferrer'
+          >
+            Fall 2025 Application
+          </a>
       </div>
-      
     </div>
   );
 }

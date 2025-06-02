@@ -1,9 +1,12 @@
 import React from 'react';
-import logo from './aim_logo.svg';
-import { ReactComponent as DiscordLogo } from './discord_logo.svg';
+import logo from './icons/aim_logo.svg';
+import { ReactComponent as DiscordLogo } from './icons/discord_logo.svg';
+import { ReactComponent as LinkedinLogo } from './icons/linkedin_logo.svg'
 import TickerTape from './components/TickerTape';
 import MainContent from './components/MainContent';
 import './App.css';
+import './App-AboutUs.css'
+import './App-Body.css'
 import { Route, Routes, Link } from 'react-router-dom';
 import AboutUs from './pages/AboutUs';
 import JoinUs from './pages/JoinUs';
@@ -23,6 +26,11 @@ function App() {
           {/* <li><a href="/reports">Reports</a></li> */}
           <li><Link to="/join-us">Join Us</Link></li>
           <li><Link to="/contact-us">Contact Us</Link></li>
+          <li>
+            <a href='https://www.linkedin.com/company/aimpartnersuiuc/' target='_blank' rel="noopener noreferrer">
+              <LinkedinLogo className='top-navbar__linkedin'/>
+            </a>
+          </li>
           <li>
             <a href='https://discord.gg/EMSf7pjKM6' target='_blank' rel="noopener noreferrer">
               <DiscordLogo className="top-navbar__discord"/>
@@ -47,7 +55,27 @@ function App() {
       </Routes>
       
       
-      
+      {/* <div className='footer-links'>
+          <div className='footer-links__container'>
+              <a
+                href='https://www.linkedin.com/company/aimpartnersuiuc/'
+                target='_blank'
+                rel='noopener noreferrer'
+                className='footer-links__icon'
+              >
+                <LinkedinLogo/>
+              </a>
+              <a
+                href='https://discord.gg/EMSf7pjKM6'
+                target='_blank'
+                rel='noopener noreferrer'
+                className='footer-links__icon'
+              >
+                <DiscordWhiteLogo/>
+              </a>
+              
+          </div>
+      </div> */}
     </div>
     
   );

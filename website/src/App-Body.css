@@ -1,0 +1,62 @@
+:root {
+    --illini-orange: #FF5F05;
+    --illini-blue: #13294B;
+}
+  
+body {
+    margin: 0;
+    font-family: 'NanumSquare', Arial, sans-serif;
+}
+  
+.App {
+    text-align: center;
+}
+.body-content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+  
+.body-content-logo  {
+    /* float: left; */
+    /* max-width: 10000px; */
+    align-self: flex; /* flex-start || flex-end */
+    margin-bottom: 0%;
+}
+  
+.body-content-logo img {
+    max-width: 100%;
+    height: auto;
+    width: 225;
+    height: 100;
+}
+  
+.body-content-motto {
+    font-weight: 700;
+    font-size: 37px;
+    text-align: left;
+    margin: 60px;
+    margin-bottom: 8px;
+}
+  
+.body-content-apply {
+    background-color: #a1a3a8;
+    /* padding: 12px 20px; */
+    border-radius: 4px;
+    align-self: flex-start;
+    margin: 60px;
+    margin-top: 8px;
+}
+  
+.body-content-apply a {
+    padding: 120px;
+    padding-top: 0%;
+    text-decoration: none;
+    color: #13294B;
+    font-weight: 100;
+    font-size: 20px;
+}
+  
+.body-content-apply a:hover{
+    color: var(--illini-orange);
+}
