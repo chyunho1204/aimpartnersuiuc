@@ -1,6 +1,7 @@
 :root {
     --illini-orange: #FF5F05;
     --illini-blue: #13294B;
+    --black: #000;
 }
   
 body {
@@ -16,5 +17,65 @@ body {
     font-size: 30px;
     text-align: left;
     padding-left: 60px;
-    margin-top: 120px;
+    margin-top: 90px;
+}
+
+.about-us-leaderships {
+    width: 100%;
+}
+
+.about-us-leaderships h2 {
+    font-size: 28px;
+    font-weight: 600;
+    margin-bottom: 60px;
+    color: var(--illini-blue);
+    /* text-align: left; */
+}
+
+.leaderships-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 40px;
+}
+
+.leadership-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.leadership-position {
+    font-size: 16px;
+    font-weight: 600;
+    color: #555;
+    margin-bottom: 8px;
+}
+
+.leadership-card img {
+    width: 100%;
+    max-width: 250px;
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+    border-radius: 8px;
+    border: 2px solid var(--black);
+    transition: border-color 0.2s;
+}
+
+.leadership-card a:hover img {
+    border-color: var(--illini-orange);
+}
+
+.leadership-card h3 {
+    margin: 12px 0 6px;
+    font-size: 18px;
+    font-weight: 600;
+    color: #333;
+}
+  
+
+.leadership-card p {
+    margin: 0;
+    font-size: 14px;
+    color: #666;
 }
