@@ -40,7 +40,7 @@ export default function TickerTape() {
     wrapper.appendChild(script);
     container.appendChild(wrapper);
 
-    // 언마운트 시 wrapper 자체를 제거
+    
     return () => {
       container.removeChild(wrapper);
     };
