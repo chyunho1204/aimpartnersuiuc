@@ -7,10 +7,10 @@ import MainContent from './components/MainContent';
 import './App.css';
 import './App-AboutUs.css'
 import './App-Body.css'
+import './App-Projects.css'
 import { Route, Routes, Link } from 'react-router-dom';
 import AboutUs from './pages/AboutUs';
-import JoinUs from './pages/JoinUs';
-import ContactUs from './pages/ContactUs';
+import Projects from './pages/Projects';
 
 function App() {
   return (
@@ -24,8 +24,7 @@ function App() {
         <ul className='top-navbar__links'>
           <li><Link to="/about-us">About Us</Link></li>
           {/* <li><a href="/reports">Reports</a></li> */}
-          <li><Link to="/join-us">Join Us</Link></li>
-          <li><Link to="/contact-us">Contact Us</Link></li>
+          <li><Link to="/projects">Projects</Link></li>
           <li>
             <a href='https://www.linkedin.com/company/aimpartnersuiuc/' target='_blank' rel="noopener noreferrer">
               <LinkedinLogo className='top-navbar__linkedin'/>
@@ -50,8 +49,7 @@ function App() {
         {/* about us page */}
         <Route path='/about-us' element={<AboutUs />}/>
         {/* join us page */}
-        <Route path='join-us' element={<JoinUs />}/>
-        <Route path='contact-us' element={<ContactUs />}/>
+        <Route path='/projects' element={<Projects />}/>
       </Routes>
       
       

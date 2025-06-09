@@ -46,6 +46,15 @@ body {
   color: var(--illini-orange);
 }
 
+@media screen and (max-width: 1300px) {
+  .top-navbar__links {
+    gap: 5px;
+  }
+  .top-navbar__links li a {
+    font-size: 12px;
+  }
+}
+
 .top-navbar__discord > g > path {
   width: 24px;
   height: 24px;
