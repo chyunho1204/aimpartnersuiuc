@@ -11,6 +11,7 @@ import './App-Projects.css'
 import { Route, Routes, Link } from 'react-router-dom';
 import AboutUs from './pages/AboutUs';
 import Projects from './pages/Projects';
+// import Waves from './components/Waves';
 
 function App() {
   return (
@@ -37,11 +38,25 @@ function App() {
           </li>
         </ul>
       </nav>
+      
       <Routes>
         {/* main page */}
         <Route path='/' element={
           <>
             <TickerTape/>
+            {/* <Waves
+              lineColor="#FF5F05"
+              backgroundColor="rgba(255, 255, 255, 0.2)"
+              waveSpeedX={0.02}
+              waveSpeedY={0.01}
+              waveAmpX={40}
+              waveAmpY={20}
+              friction={0.9}
+              tension={0.01}
+              maxCursorMove={120}
+              xGap={12}
+              yGap={36}
+            /> */}
             <MainContent/>
           </>
           }
@@ -51,6 +66,7 @@ function App() {
         {/* join us page */}
         <Route path='/projects' element={<Projects />}/>
       </Routes>
+      
       
       
       {/* <div className='footer-links'>

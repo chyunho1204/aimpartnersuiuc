@@ -1,5 +1,17 @@
 import React from 'react';
 import logo from '../icons/aim_logo.svg'
+import samsung from '../icons/company_icons/samsung_logo.svg'
+import pwc from '../icons/company_icons/pwc_logo.svg'
+import kpmg from '../icons/company_icons/kpmg_logo.svg';
+import ey from '../icons/company_icons/ey_logo.svg';
+import deloitte from '../icons/company_icons/deloitte_logo.svg';
+import bcg from '../icons/company_icons/bcg_logo.svg';
+import meta from '../icons/company_icons/meta_logo.svg';
+import microsoft from '../icons/company_icons/microsoft_logo.svg';
+import lg from '../icons/company_icons/lg_logo.svg'
+import prot from '../icons/company_icons/protiviti_logo.svg'
+import bnp from '../icons/company_icons/bnp-paribas_logo.svg'
+import sc from '../icons/company_icons/standard-chartered_logo.svg'
 // import image from '../images/img.jpg'
 
 export default function MainContent() {
@@ -108,7 +120,7 @@ export default function MainContent() {
                     "Learn While You Earn"
                 </div>
                 <div className='body-content-pr'>
-                    <h2>We are a student-led corporate and quantitative finance organization at the University of Illinois at Urbana Champaign.</h2>
+                    <h2>We are a student-led corporate and quantitative finance organization at the University of Illinois Urbana Champaign.</h2>
                 </div>
                 <div className="body-content-apply">
                     <h2>
@@ -118,6 +130,17 @@ export default function MainContent() {
                             rel='noopener noreferrer'
                         >
                           Apply for Fall 2025!
+                        </a>
+                    </h2>
+                </div>
+                <div className="body-content-apply">
+                    <h2>
+                        <a
+                            href='https://docs.google.com/forms/d/e/1FAIpQLScwqNQkE8YHhnvLmvr5jeAgJA5ZqG4LoFVKOxz9rxg-c2_krQ/viewform?usp=dialog'
+                            target='_blank'
+                            rel='noopener noreferrer'
+                        >
+                          Apply Team Lead Positions for Fall 2025!
                         </a>
                     </h2>
                 </div>
@@ -164,8 +187,27 @@ export default function MainContent() {
               </div>
           </div>
         </div>
+        <div className='placements'>
+            <div className='placements-main'>
+                  <h2 className='placements-main-text'>Placements</h2>
+                  <div className='placements-logos'>
+                      <img src={pwc} alt='PwC logo' className='placement-logo'/>
+                      <img src={kpmg} alt='KPMG logo' className='placement-logo'/>
+                      <img src={samsung} alt='Samsung logo' className='placement-logo'/>
+                      <img src={ey} alt='EY logo' className='placement-logo'/>
+                      <img src={deloitte} alt='Deloitte logo' className='placement-logo'/>
+                      <img src={bcg} alt='Boston Consulting Group logo' className='placement-logo'/>
+                      <img src={meta} alt='Meta logo' className='placement-logo'/>
+                      <img src={microsoft} alt='Microsoft logo' className='placement-logo'/>
+                      <img src={lg} alt='LG logo' className='placement-logo'/>
+                      <img src={prot} alt='Protiviti logo' className='placement-logo'/>
+                      <img src={bnp} alt='BNP Paribas logo' className='placement-logo'/>
+                      <img src={sc} alt='Standard Chartered logo' className='placement-logo'/>
+                  </div>
+            </div>
+        </div>
         <div className='contact-sponsor'>
-            <h3 className='contact-sponsor-main'>Email us at <span className='highlight'>aimpartnersuiuc@gmail.com</span> to sponsor us!</h3>
+            <h3 className='contact-sponsor-main'>Interested in sponsoring us? Reach out at <span className='highlight'>aimpartnersuiuc@gmail.com</span>!</h3>
         </div>
         <div className='contact-us'>
             <div className='contact-us-logo'>

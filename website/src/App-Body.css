@@ -76,7 +76,8 @@ body {
     width: 100%;
     box-sizing: border-box;
     /* border-bottom: 1px solid var(--separator-gray); */
-    padding-bottom: 30px;
+    /* padding-bottom: 30px; */
+    padding-bottom: 0px;
     position: relative;
     text-align: left;
 }
@@ -128,6 +129,7 @@ body {
     box-sizing: border-box;
     display: flex;
     flex-direction: column;
+    box-shadow: inset 3px 0 5px -3px rgba(0, 0, 0, 0.15);
 }
 
 .upcoming-events {
@@ -225,10 +227,11 @@ body {
 .what-we-do-keywords {
     text-align: left;
     width: 50%;
-    float: right;
+    float: left;
     /* background-color: var(--separator-gray); */
     flex-direction: column;
     margin: 60px auto;
+    max-width: 700px;
 }
 
 .what-we-do-keywords-detail {
@@ -237,6 +240,36 @@ body {
 
 .highlight {
     color: var(--illini-orange);
+}
+
+.placements {
+    font-size: 30px;
+    width: 100%;
+    margin-top: 30px;
+    margin: 60px auto;
+    padding-bottom: 40px;
+    border-bottom: 1px solid var(--separator-gray);
+}
+
+.placements-main {
+    font-size: 30px;
+    margin-top: -60px;
+    margin-bottom: 16px;
+}
+
+.placements-logos {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 40px;
+    justify-items: center;
+    align-items: center;
+}
+
+.placement-logo {
+    max-width: 350px;
+    width: 100%;
+    height: auto;
+    object-fit: contain;
 }
 
 .contact-sponsor {
@@ -322,4 +355,82 @@ body {
 }
 .contact-us-linkedin a:hover {
     color: var(--illini-blue);
+}
+
+
+/* for mobile 430px or lower */
+@media screen and (max-width: 430px) {
+    .body-content {
+      margin: 20px auto;
+      padding: 0 16px;
+    }
+  
+    .body-content-split {
+      display: flex !important;
+      flex-direction: column !important;
+      align-items: stretch;
+      gap: 24px;
+    }
+  
+    .body-content-left {
+      width: 100% !important;
+      float: none !important;
+    }
+    
+    .body-content-right {
+      width: 100% !important;
+      float: none !important;
+    }
+
+    .body-content-apply {
+        text-align: center;
+    }
+
+    .body-content-logo img {
+        margin-left: 0;
+        display: block;
+        margin-right: auto;
+        margin-left: auto;
+        max-width: 300px;
+    }
+  
+    .events-list {
+      max-height: none;
+      padding-right: 0;
+    }
+    .event-card {
+      min-width: auto;
+      max-width: 100%;
+    }
+  
+    .what-we-do {
+      padding: 0;
+      border: none;
+    }
+    .what-we-do-detail,
+    .what-we-do-keywords {
+      float: none;
+      width: 100% !important;
+      margin: 0 0 24px;
+      text-align: left;
+    }
+    .what-we-do-keywords {
+      margin-bottom: 40px;
+    }
+  
+    .contact-sponsor,
+    .contact-us {
+      flex-direction: column !important;
+      align-items: center;
+      margin: 40px 0;
+    }
+    .contact-us-logo,
+    .contact-us-main {
+      width: 100%;
+      margin: 0 0 24px;
+      text-align: center;
+    }
+    .contact-us-main-detail {
+      text-align: center;
+    }
 }

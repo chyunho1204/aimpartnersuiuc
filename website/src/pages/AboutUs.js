@@ -1,6 +1,6 @@
 import React from 'react';
 import president from '../images/no_image.png';
-import vice_president from '../images/no_image.png';
+import vice_president from '../images/jacob_lee_profile.png';
 // import vp_jason from '../images/vp-jason_profile.png';
 import hoi from '../images/no_image.png';
 import hor from '../images/no_image.png';
@@ -23,7 +23,7 @@ export default function AboutUs() {
         <div className='about-us-detail'>
           <p>Founded in January 2020, AIM Partners is an investment management organization run by UIUC students. We comprise undergraduate and graduate students from diverse backgrounds, which enables us to take a holistic approach to our investment portfolios. </p>   
 
-          <p>Our mission is to provide unique market insights and deliver exceptional investment returns to our clients. Through AIM Partners, not only do we hope to provide both educational and practical experience for students who have a passion for investment, but also to continue our ongoing partnerships with our clients. </p>
+          <p>Our mission is to provide unique market insights and deliver exceptional investment returns to our members. Through AIM Partners, not only do we hope to provide both educational and practical experience for students who have a passion for investment, but also to continue our ongoing partnerships with our clients. </p>
         </div>
       </div>
       
@@ -93,7 +93,7 @@ export default function AboutUs() {
 
           <div className='leadership-card'>
             <a
-              href='https://www.linkedin.com/in/tonykwon02/'
+              href='https://www.linkedin.com/in/joonyong-um-630489369'
               target='_blank'
               rel="noopener noreferrer"
             >

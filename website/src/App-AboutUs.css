@@ -128,33 +128,52 @@ body {
     color: #666;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 430px) {
+    .about-us {
+      padding: 0 16px;
+    }
+  
+    .about-us-main {
+      padding-left: 0;
+      text-align: center;
+      margin-top: 40px;
+      margin-bottom: 24px;
+    }
+  
     .about-us-block {
-        flex-direction: column;
-        align-items: center;
-        gap: 20px;
-        padding: 0 16px;
+      flex-direction: column;
+      align-items: center;
+      gap: 16px;
+      padding: 0;
+      margin: 0 auto 40px;
     }
     .about-us-logo img {
-        align-items: center;
-        max-width: 300px;
-        width: 100%;
-        height: auto;
+      margin: 0 auto;
+      max-width: 100%;
     }
     .about-us-detail {
-        /* flex: unset; */
-        max-width: 300px;
-        margin: 12px 0px 0px 0px; /* top right bottom left */
-        text-align: left;
-        font-size: 15px;
-        line-height: 1.5;
+      margin: 0;
+      max-width: 100%;
+      font-size: 16px;
+      line-height: 1.5;
+      text-align: center;
+    }
+  
+    .about-us-leaderships {
+      padding: 0;
+      margin: 0 auto 40px;
+    }
+    .about-us-leaderships h2 {
+      text-align: center;
+      margin-bottom: 24px;
     }
     .leaderships-grid {
-      grid-template-columns: repeat(2, 1fr);
-      gap: 3px;
-      column-gap: 3px;
+      grid-template-columns: 1fr;
+      row-gap: 24px;
+      column-gap: 0;
+      width: 100%;
     }
     .leadership-card img {
-        max-width: 120px;
+      max-width: 150px;
     }
 }
