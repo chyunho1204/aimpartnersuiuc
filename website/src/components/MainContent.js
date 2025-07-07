@@ -207,7 +207,8 @@ export default function MainContent() {
             </div>
         </div>
         <div className='contact-sponsor'>
-            <h3 className='contact-sponsor-main'>Interested in sponsoring us? Reach out at <span className='highlight'>aimpartnersuiuc@gmail.com</span>!</h3>
+            <h3 className='contact-sponsor-main'>Interested in sponsoring us? Reach out at {' '}
+              <a className='highlight' href='mailto:aimpartnersuiuc@gmail.com'>aimpartnersuiuc@gmail.com</a>!</h3>
         </div>
         <div className='contact-us'>
             <div className='contact-us-logo'>
@@ -217,7 +218,12 @@ export default function MainContent() {
                 Contact Us
 
                 <div className='contact-us-main-detail'>
-                    <p className='email'>aimpartnersuiuc@gmail.com</p>
+                    <li className='contact-us-email'>
+                        <a href='mailto:aimpartnersuiuc@gmail.com' target='_blank' rel="noopener noreferrer">
+                            aimpartnersuiuc@gmail.com
+                        </a>
+                        
+                    </li>
                     <li className='contact-us-discord'>
                         <a href='https://discord.com/invite/EMSf7pjKM6' target='_blank' rel="noopener noreferrer">
                             Discord

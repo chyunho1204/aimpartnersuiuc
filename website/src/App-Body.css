@@ -312,7 +312,6 @@ body {
     display: flex;
     text-align: left;
     font-size: 35px;
-    /* margin-bottom: 40px; */
 }
 
 .contact-us-main-detail {
@@ -321,6 +320,20 @@ body {
     font-size: 20px;
     font-weight: 200;
     /* margin-bottom: 40px; */
+}
+
+.contact-us-email {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 20px;
+}
+
+.contact-us-email a {
+    color: #4a4a4a;
+    text-decoration: underline;
+    text-decoration-color: var(--separator-gray);
+    transition: color 0.2s;
 }
 
 .contact-us-discord {
@@ -334,7 +347,6 @@ body {
     color: #4a4a4a;
     text-decoration: underline;
     text-decoration-color: var(--separator-gray);
-    /* 원하시면 아래 두 줄을 추가해서 hover 효과를 줄 수 있습니다 */
     transition: color 0.2s;
 }
 .contact-us-discord a:hover {
