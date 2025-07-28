@@ -1,5 +1,6 @@
 import React from 'react';
 import logo from '../icons/aim_logo.svg'
+// import logo from '../icons/alpha-investment-management-high-resolution-logo-transparent (1).png'
 import samsung from '../icons/company_icons/samsung_logo.svg'
 import pwc from '../icons/company_icons/pwc_logo.svg'
 import kpmg from '../icons/company_icons/kpmg_logo.svg';
@@ -12,6 +13,7 @@ import lg from '../icons/company_icons/lg_logo.svg'
 import prot from '../icons/company_icons/protiviti_logo.svg'
 import bnp from '../icons/company_icons/bnp-paribas_logo.svg'
 import sc from '../icons/company_icons/standard-chartered_logo.svg'
+import BlurText from './BlurText';
 // import image from '../images/img.jpg'
 
 export default function MainContent() {
@@ -125,15 +127,17 @@ export default function MainContent() {
                 <div className="body-content-apply">
                     <h2>
                         <a
-                            href='https://docs.google.com/forms/d/e/1FAIpQLSf0xBY2sK0ub7SwoebbNJBez5PkF6OXDPZfKlCr6y5IqWJdlw/viewform?usp=dialog'
+                            // href='https://docs.google.com/forms/d/e/1FAIpQLSf0xBY2sK0ub7SwoebbNJBez5PkF6OXDPZfKlCr6y5IqWJdlw/viewform?usp=dialog'
+                            href='/'
                             target='_blank'
                             rel='noopener noreferrer'
                         >
-                          Apply for Fall 2025!
+                          {/* Apply for Fall 2025! */}
+                          Fall 2025 Application Coming Soon!
                         </a>
                     </h2>
                 </div>
-                <div className="body-content-apply">
+                {/* <div className="body-content-apply">
                     <h2>
                         <a
                             href='https://docs.google.com/forms/d/e/1FAIpQLScwqNQkE8YHhnvLmvr5jeAgJA5ZqG4LoFVKOxz9rxg-c2_krQ/viewform?usp=dialog'
@@ -143,7 +147,7 @@ export default function MainContent() {
                           Apply Team Lead Positions for Fall 2025!
                         </a>
                     </h2>
-                </div>
+                </div> */}
             </div>
             <div className='body-content-right'>
                 <h2 className='upcoming-events'>Upcomping Events</h2>
@@ -172,7 +176,17 @@ export default function MainContent() {
       
         <div className='body-content-fake'></div>
         <div className='what-we-do'>
-          <h2 className='what-we-do-main'>What We Do</h2>
+          <h2 className='what-we-do-main'>
+            <BlurText
+                text="What We Do"
+                delay={150}
+                animateBy="words"
+                direction="top"
+                // onAnimationComplete={handleAnimationComplete}
+                className="blur-text"
+            />
+              {/* What We Do */}
+          </h2>
           <div className='what-we-do-content'>
               <div className='what-we-do-detail'>
                 <h2>At AIM Partners, we enhance ourselves to <span className='highlight'>learn while we earn</span>. <br/><br/>We host weekly workshops, mentor beginners in finance, and
@@ -189,7 +203,17 @@ export default function MainContent() {
         </div>
         <div className='placements'>
             <div className='placements-main'>
-                  <h2 className='placements-main-text'>Placements</h2>
+                  <h2 className='placements-main-text'>
+                      <BlurText
+                        text="Placements"
+                        delay={50}
+                        animateBy="letters"
+                        direction="top"
+                        // onAnimationComplete={handleAnimationComplete}
+                        className="blur-text"
+                      />
+                      {/* Placements */}
+                  </h2>
                   <div className='placements-logos'>
                       <img src={pwc} alt='PwC logo' className='placement-logo'/>
                       <img src={kpmg} alt='KPMG logo' className='placement-logo'/>

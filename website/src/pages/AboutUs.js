@@ -8,6 +8,7 @@ import hos from '../images/no_image.png';
 import logo from '../icons/aim_logo.svg';
 // import hoap from '../images/no_image.png';
 // import howd from '../images/howd_profile.png';
+// import ProfileCard from '../components/ProfileCard'
 
 
 export default function AboutUs() {
@@ -54,19 +55,6 @@ export default function AboutUs() {
             <p className='leadership-position'>Vice President</p>
           </div>
 
-          {/* <div className='leadership-card'>
-            <a
-              href='https://www.linkedin.com/in/jason-kim-bb6154267/'
-              target='_blank'
-              rel="noopener noreferrer"
-            >
-              <img src={vp_jason} alt='Jason Kim'/>
-            </a>
-            <h3 className='leadership-name'>Jason Kim</h3>
-            <p className='leadership-position'>Cornell Chapter</p>
-          </div> */}
-
-
           <div className='leadership-card'>
             <a
               href='https://www.linkedin.com/in/tonykwon02/'
@@ -102,30 +90,6 @@ export default function AboutUs() {
             <h3 className='leadership-name'>Joonyong Um</h3>
             <p className='leadership-position'>Head of Software</p>
           </div>
-
-          {/* <div className='leadership-card'>
-            <a
-              href='https://www.linkedin.com/in/jiho-joung-142047270/'
-              target='_blank'
-              rel="noopener noreferrer"
-            >
-              <img src={howd} alt='Jiho Joung'/>
-            </a>
-            <h3 className='leadership-name'>Jiho Joung</h3>
-            <p className='leadership-position'>Head of West Coast Division</p>
-          </div>
-
-          <div className='leadership-card'>
-            <a
-              href='https://www.linkedin.com/in/tonykwon02/'
-              target='_blank'
-              rel="noopener noreferrer"
-            >
-              <img src={hoap} alt='Sungbin Park'/>
-            </a>
-            <h3 className='leadership-name'>Sungbin Park</h3>
-            <p className='leadership-position'>Head of Asia Pacific Division</p>
-          </div> */}
         </div>
       </div>
       <div className='contact-us'>
