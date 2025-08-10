@@ -1,8 +1,8 @@
 import React from 'react';
-import president from '../images/no_image.png';
+import president from '../images/yunho_chang_profile.jpg';
 import vice_president from '../images/jacob_lee_profile.png';
 // import vp_jason from '../images/vp-jason_profile.png';
-import hoi from '../images/no_image.png';
+import hoi from '../images/tony_kwon_profile.jpg';
 import hor from '../images/no_image.png';
 import hos from '../images/no_image.png';
 import logo from '../icons/aim_logo.svg';

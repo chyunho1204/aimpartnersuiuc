@@ -14,6 +14,19 @@ export default function Projects() {
 
                 <div className='reports-list'>
                     <div className='reports-item'>
+                        <h3 className='reports-item-month'>August Preview Report</h3>
+                        <h4 className='reports-item-detail'>
+                            <a
+                                className='research-report'
+                                href='/Research_Arm.pdf'
+                                target='_blank'
+                                rel="noopener noreferrer"
+                            >
+                                Click here to view the August preview report (Full report for AIM members only)
+                            </a>
+                        </h4>
+                    </div>
+                    <div className='reports-item'>
                         <h3 className='reports-item-month'>September Monthly Report</h3>
                         <h4 className='reports-item-detail'>To Be Posted</h4>
                     </div>
