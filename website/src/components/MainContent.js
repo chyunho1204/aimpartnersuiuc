@@ -19,19 +19,19 @@ import BlurText from './BlurText';
 export default function MainContent() {
   const events = [
     {
-      title: 'First Info Night: Fall 2025',
+      title: 'Fall 2025 Info Night: Fall 2025',
       datetime: 'Tue, Sep 2 2025 · 6:00 PM - 8:00 PM CST',
       location: 'Digital Computer Lab room #1310',
       description: 'Join us for a walkthrough of this semester’s application process, meet the leadership team, and ask any questions.',
       formURL: 'https://docs.google.com/forms/d/e/1FAIpQLSfbky-jWiNfTXGP7tUGjrT_EDqFcBYR8RCqOwJIQ1FWEtGT8g/viewform?usp=dialog'
     },
-    {
-      title: 'Second Info Night: Fall 2025',
-      datetime: 'Thur, Sep 4 2025 · 6:00 PM - 8:00 PM CST',
-      location: 'Digital Computer Lab room #1310',
-      description: 'Join us for a walkthrough of this semester’s application process, meet the leadership team, and ask any questions.',
-      formURL: 'https://docs.google.com/forms/d/e/1FAIpQLSdcck1WoNwbLcK4gQguv4g7gpB8WpC3MP4uSZxjFL_Cdw7Ssw/viewform?usp=dialog'
-    },
+    // {
+    //   title: 'Second Info Night: Fall 2025',
+    //   datetime: 'Thur, Sep 4 2025 · 6:00 PM - 8:00 PM CST',
+    //   location: 'Digital Computer Lab room #1310',
+    //   description: 'Join us for a walkthrough of this semester’s application process, meet the leadership team, and ask any questions.',
+    //   formURL: 'https://docs.google.com/forms/d/e/1FAIpQLSdcck1WoNwbLcK4gQguv4g7gpB8WpC3MP4uSZxjFL_Cdw7Ssw/viewform?usp=dialog'
+    // },
     {
       title: 'General Meeting',
       datetime: 'Wed, Sep 10 2025 · 6:00 PM CST',
@@ -137,17 +137,17 @@ export default function MainContent() {
                         </a>
                     </h2>
                 </div>
-                {/* <div className="body-content-apply">
+                <div className="body-content-apply">
                     <h2>
                         <a
-                            href='https://docs.google.com/forms/d/e/1FAIpQLScwqNQkE8YHhnvLmvr5jeAgJA5ZqG4LoFVKOxz9rxg-c2_krQ/viewform?usp=dialog'
+                            href='https://docs.google.com/forms/d/e/1FAIpQLSeUlwm6Wrf624wpbh93zgeEiysPIfBSghkcxj4PUhzy7vXnpg/viewform?usp=header'
                             target='_blank'
                             rel='noopener noreferrer'
                         >
-                          Apply Team Lead Positions for Fall 2025!
+                          Apply for the Software Team Lead Position for Fall 2025!
                         </a>
                     </h2>
-                </div> */}
+                </div>
             </div>
             <div className='body-content-right'>
                 <h2 className='upcoming-events'>Upcomping Events</h2>

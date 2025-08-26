@@ -3,7 +3,7 @@ import president from '../images/yunho_chang_profile.jpg';
 import vice_president from '../images/jacob_lee_profile.png';
 // import vp_jason from '../images/vp-jason_profile.png';
 import hoi from '../images/tony_kwon_profile.jpg';
-import hor from '../images/no_image.png';
+import hor from '../images/jaeho_lim_profile.jpeg';
 import hos from '../images/no_image.png';
 import logo from '../icons/aim_logo.svg';
 // import hoap from '../images/no_image.png';
@@ -88,7 +88,7 @@ export default function AboutUs() {
               <img src={hos} alt='Junyong Um'/>
             </a>
             <h3 className='leadership-name'>Joonyong Um</h3>
-            <p className='leadership-position'>Head of Software</p>
+            <p className='leadership-position'>Head of Operations</p>
           </div>
         </div>
       </div>
