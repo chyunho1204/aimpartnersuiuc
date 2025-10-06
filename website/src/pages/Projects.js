@@ -14,15 +14,32 @@ export default function Projects() {
 
                 <div className='reports-list'>
                     <div className='reports-item'>
-                        <h3 className='reports-item-month'>August Preview Report</h3>
+                        <h3 className='reports-item-month'>August Monthly Report</h3>
                         <h4 className='reports-item-detail'>
-                            <a
+                            {/* <a
                                 className='research-report'
-                                href='/Research_Arm.pdf'
+                                href='/Research/Research_Arm.pdf'
                                 target='_blank'
                                 rel="noopener noreferrer"
                             >
                                 Click here to view the August preview report (Full report for AIM members only)
+                            </a> */}
+                            <a
+                                className='research-report'
+                                href='/Research/Research_RKLB.pdf'
+                                target='_blank'
+                                rel="noopener noreferrer"
+                            >
+                                Click here to view the August Company Research!
+                            </a>
+                            <br/>
+                            <a
+                                className='research-report'
+                                href='/Research/Pitch_RKLB.pdf'
+                                target='_blank'
+                                rel="noopener noreferrer"
+                            >
+                                Click here to view the August Stock Pitch!
                             </a>
                         </h4>
                     </div>

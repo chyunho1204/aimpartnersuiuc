@@ -14,34 +14,42 @@ import prot from '../icons/company_icons/protiviti_logo.svg'
 import bnp from '../icons/company_icons/bnp-paribas_logo.svg'
 import sc from '../icons/company_icons/standard-chartered_logo.svg'
 import BlurText from './BlurText';
+import wso from '../icons/partner_icons/wso.svg'
 // import image from '../images/img.jpg'
 
 export default function MainContent() {
   const events = [
     {
-      title: 'Fall 2025 Info Night: Fall 2025',
-      datetime: 'Tue, Sep 2 2025 · 6:00 PM - 8:00 PM CST',
-      location: 'Digital Computer Lab room #1310',
-      description: 'Join us for a walkthrough of this semester’s application process, meet the leadership team, and ask any questions.',
-      formURL: 'https://docs.google.com/forms/d/e/1FAIpQLSfbky-jWiNfTXGP7tUGjrT_EDqFcBYR8RCqOwJIQ1FWEtGT8g/viewform?usp=dialog'
+      title: 'Investment Banking Bootcamp',
+      datetime: 'Sep 28 2025 · 12:00 PM CST',
+      location: 'TBD',
+      description: 'Host: Alan Rodriguez Villares (10+ years IB experience at J.P. Morgan, Harris Williams, Santander)',
+      formURL: 'https://docs.google.com/forms/d/e/1FAIpQLSc_3aeNqWs-Ov_tWFUBdA6m2Sa1j_2HXmyuIe-mclqMr7zzmQ/viewform',
     },
-    // {
-    //   title: 'Second Info Night: Fall 2025',
-    //   datetime: 'Thur, Sep 4 2025 · 6:00 PM - 8:00 PM CST',
-    //   location: 'Digital Computer Lab room #1310',
-    //   description: 'Join us for a walkthrough of this semester’s application process, meet the leadership team, and ask any questions.',
-    //   formURL: 'https://docs.google.com/forms/d/e/1FAIpQLSdcck1WoNwbLcK4gQguv4g7gpB8WpC3MP4uSZxjFL_Cdw7Ssw/viewform?usp=dialog'
-    // },
+    {
+      title: 'Q&A Session',
+      datetime: 'Oct 5 2025 · 2:00 PM CST',
+      location: 'TBD',
+      description: 'Host: Tim Weil (Experienced professional in high finance)',
+      formURL: 'https://docs.google.com/forms/d/e/1FAIpQLScr4WG6f_7nCwmU24TxsA0UIP0elG-bPSG_b04G9DPLGjXbTg/viewform',
+    },
+    {
+      title: 'Q&A Session',
+      datetime: 'Oct 10 2025 · 4:00 PM CST',
+      location: 'TBD',
+      description: 'Host: Patrick Curtis (Founder of Wall Street Oasis)',
+      formURL: 'https://docs.google.com/forms/d/e/1FAIpQLSfQ5XikG9JFmJl4rC4FgprvBfADwOwDv8GOOL46hrupASTABg/viewform',
+    },
     {
       title: 'General Meeting',
       datetime: 'Wed, Sep 10 2025 · 6:00 PM CST',
-      location: 'TBD',
+      location: 'Digital Computer Lab Room 1310',
       description: 'General Meeting'
     },
     {
       title: 'General Meeting',
       datetime: 'Wed, Sep 17 2025 · 6:00 PM CST',
-      location: 'TBD',
+      location: 'Digital Computer Lab Room 1310',
       description: 'General Meeting'
     },
     {
@@ -127,17 +135,15 @@ export default function MainContent() {
                 <div className="body-content-apply">
                     <h2>
                         <a
-                            // href='https://docs.google.com/forms/d/e/1FAIpQLSf0xBY2sK0ub7SwoebbNJBez5PkF6OXDPZfKlCr6y5IqWJdlw/viewform?usp=dialog'
-                            href='/'
+                            href='https://docs.google.com/forms/d/e/1FAIpQLSf0xBY2sK0ub7SwoebbNJBez5PkF6OXDPZfKlCr6y5IqWJdlw/viewform?usp=header'
                             target='_blank'
                             rel='noopener noreferrer'
                         >
-                          {/* Apply for Fall 2025! */}
-                          Fall 2025 Application Coming Soon!
+                          Apply for Fall 2025!
                         </a>
                     </h2>
                 </div>
-                <div className="body-content-apply">
+                {/* <div className="body-content-apply">
                     <h2>
                         <a
                             href='https://docs.google.com/forms/d/e/1FAIpQLSeUlwm6Wrf624wpbh93zgeEiysPIfBSghkcxj4PUhzy7vXnpg/viewform?usp=header'
@@ -147,7 +153,7 @@ export default function MainContent() {
                           Apply for the Software Team Lead Position for Fall 2025!
                         </a>
                     </h2>
-                </div>
+                </div> */}
             </div>
             <div className='body-content-right'>
                 <h2 className='upcoming-events'>Upcomping Events</h2>
@@ -200,6 +206,18 @@ export default function MainContent() {
                   <h3 className='what-we-do-keywords-detail'>We earn key financial market concepts as well as trading strategy by hosting mock trading competition and posting a monthly financial due diligence report.</h3>
               </div>
           </div>
+        </div>
+        <div className='partners'>
+          <h2 className='partners-main'>
+            <BlurText
+                text="Partners"
+                delay={150}
+                animateBy='letters'
+                direction='top'
+                className='blur-text'
+            />
+          </h2>
+          <img src={wso} alt='WSO logo' className='partner-logo'/>
         </div>
         <div className='placements'>
             <div className='placements-main'>

@@ -4,7 +4,8 @@ import vice_president from '../images/jacob_lee_profile.png';
 // import vp_jason from '../images/vp-jason_profile.png';
 import hoi from '../images/tony_kwon_profile.jpg';
 import hor from '../images/jaeho_lim_profile.jpeg';
-import hos from '../images/no_image.png';
+import hos from '../images/arnav_saraogi_profile.png';
+import hoo from '../images/ibrahim_aldrees_profile.png';
 import logo from '../icons/aim_logo.svg';
 // import hoap from '../images/no_image.png';
 // import howd from '../images/howd_profile.png';
@@ -81,14 +82,25 @@ export default function AboutUs() {
 
           <div className='leadership-card'>
             <a
-              href='https://www.linkedin.com/in/joonyong-um-630489369'
+              href='https://www.linkedin.com/in/arnav-saraogi/'
               target='_blank'
               rel="noopener noreferrer"
             >
-              <img src={hos} alt='Junyong Um'/>
+              <img src={hos} alt='Arnav Saraogi'/>
             </a>
-            <h3 className='leadership-name'>Joonyong Um</h3>
-            <p className='leadership-position'>Head of Operations</p>
+            <h3 className='leadership-name'>Arnav Saraogi</h3>
+            <p className='leadership-position'>Head of Software</p>
+          </div>
+          <div className='leadership-card'>
+            <a
+              href='https://www.linkedin.com/in/ibrahim-aldrees-42a608256/'
+              target='_blank'
+              rel="noopener noreferrer"
+            >
+              <img src={hoo} alt='Ibrahim Aldrees'/>
+            </a>
+            <h3 className='leadership-name'>Ibrahim Aldrees</h3>
+            <p className='leadership-position'>Head of Outreach</p>
           </div>
         </div>
       </div>
